@@ -1,0 +1,16 @@
+header{
+    padding: 20px;
+}
+#content{ 
+    padding:20px;
+}
+.restName{
+    font-size: 2rem;    
+}
+.burgerMenu{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 2fr;
+    border-radius: 5px;
+    width: 100%;
+}
