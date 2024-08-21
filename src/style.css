@@ -9,8 +9,22 @@ header{
 }
 .burgerMenu{
     display: grid;
-    gap: 20px;
     grid-template-columns: 1fr 2fr;
     border-radius: 5px;
-    width: 100%;
 }
+.burgerPrice{
+    background-image: url("cheesyburger.jpg");
+    background-repeat: round;
+    height:30vh;
+    padding: 7px;
+    text-align: end;
+    font-weight: bolder;
+    font-size: large;
+}
+.burgerDesc{
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 7px;
+    vertical-align: middle;
+    background-color:darkorange;
+} 

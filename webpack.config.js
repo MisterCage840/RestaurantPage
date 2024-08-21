@@ -22,7 +22,6 @@
                 template: "./src/template.html",
             })
         ],
-
         module: {
             rules: [
               {
@@ -39,5 +38,4 @@
               },
             ],
           },
-        
     };
